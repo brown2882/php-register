@@ -4,7 +4,7 @@ include register.php;
 
 $filePath = register.php;
 
-$contentWrite = 'This is content';
+$contentWrite = 'username.  password' ;
 
 $file = fopen($filePath, 'w');
 
